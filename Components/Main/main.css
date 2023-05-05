@@ -1,0 +1,14 @@
+main{
+    background-color: #000;
+    color: #FFF;
+}
+.grupo-main{
+    margin-left: 10em;
+    padding-top: 5em;
+}
+.paragrafo-main{
+    font-size: 27px;
+}
+.nome-main{
+    font-size: 70px;
+}
