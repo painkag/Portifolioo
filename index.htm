@@ -4,34 +4,75 @@
       <meta charset="UTF-8" />
       <title>Exemplo de uso do Typed.js</title>
       <link
-      rel="stylesheet"
+         rel="stylesheet"
+         href="global.css"
+      />
+      <link
+         rel="stylesheet"
          href="Components/NavBar/NavBar.css"
       />
       <link
          rel="stylesheet"
          href="Components/Main/main.css"
       />
+      <link
+         rel="stylesheet"
+         href="Components/Main/imgMain.css"
+      />
+      <link
+         rel="stylesheet"
+         href="Components/Sobremim/Sobre.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
    </head>
    <body>
-      <header>
+      <header class="header">
          <p class="Port-P">Port<span class="Port-S">fólio</span></p>
          <div class="opcoes">
             <li class="links-cabecalho"><a>Inicio</a></li>
             <li class="links-cabecalho"><a>Sobre</a></li>
             <li class="links-cabecalho"><a>Serviços</a></li>
             <li class="links-cabecalho"><a>Especialidade</a></li>
-          </div>
-        </header>
-        <main>
-          <div class="grupo-main">
+         </div>
+      </header>
+      <main>
+         <div class="grupo-main">
             <p class="paragrafo-main">
-              Ola, meu nome é<br /><span class="nome-main">Victor Hugo</span><br />eu sou <span class="typed"></span>
+               Ola, meu nome é<br /><span class="nome-main">Victor Hugo</span><br />eu sou <span class="typed"></span>
             </p>
-            <button>Contratar-me</button>
+            <button class="botao-main"><a class="botao-main1" href="https://api.whatsapp.com/send?phone=551197715429&text=Olá%20Victor,%20gostaria%20de%20entrar%20em%20contato%20com%20você.%20">Contatar-me</a>
+            </button>
+         </div>
+
+         <img
+            class="img-main1"
+            src="Components/img/tt1-removebg-preview.png"
+         />
+      </main>
+
+      <section class="sobre-principal">
+         <div class="sobre-texto">
+            <h2 class="sobre">Sobre</h2>
+            <p class="sobre-p1">Quem sou eu</p>
+         </div>
+         <div class="texto-sobre">
+            <div class="sobre-grupo">
+               <img class="img-sobre" src="Components/img/paris.jpg" />
+            <div class="separarPorLinha">
+            <p class="p-muda">Sou Victor e sou <span class="typed2"></span></p>
+            <p class="p-muda1">
+              Olá, meu nome é Victor Hugo e sou apaixonado por tecnologia! Comecei a me interessar por esse mundo aos 18 anos e desde então tenho me dedicado a estudar e me aprimorar nessa área. Atualmente, sou estudante de análise e desenvolvimento de sistemas, e busco constantemente novos desafios para aplicar meus conhecimentos. Se você procura um profissional comprometido e dedicado, será um prazer trabalhar com você!
+            </p>
+            <button class="baixar-cv">
+              <a class="botao-cv" href="Components/img/Resume..pdf" download>Download CV</a>
+           </button>
+           
           </div>
-        </main>
-        
-        <script src="TrocaNome.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+            </div>
+         </div>
+      </section>
+
+      <script src="Components/Main/TrocaNome.js"></script>
+      <script src="Components/NavBar/Scroll.js"></script>
    </body>
 </html>

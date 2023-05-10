@@ -1,9 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body{
-    max-width: 1200px;
-}
-@import url('./Components/NavBar/NavBar.css');
-@import url('Components/Main/main.css');
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-width: 100%;
+  }
+  
+  

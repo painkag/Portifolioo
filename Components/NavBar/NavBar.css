@@ -6,7 +6,18 @@ header{
     padding: 1em 8em 1em 8em ;
     background-color: #000;
     color: #FFF;
+    width: 100%;
 }
+header.scroll{
+    background-color:#00804b;
+    color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
 .opcoes{
     display: flex;
     gap: 10px;
@@ -20,6 +31,10 @@ header{
 .Port-S{
     color: #00804b;
 }
+.header.scroll .Port-S{
+    color: #FFF;
+}
+
 .links-cabecalho{
     text-decoration: none;
     color: #FFF;
