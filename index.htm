@@ -23,6 +23,7 @@
          rel="stylesheet"
          href="Components/Sobremim/Sobre.css"
       />
+      <link rel="stylesheet" href="Components/Servicos/servicos.css">
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
    </head>
    <body>
@@ -38,11 +39,15 @@
       <main>
          <div class="grupo-main">
             <p class="paragrafo-main">
-               Ola, meu nome é<br /><span class="nome-main">Victor Hugo</span><br />eu sou <span class="typed"></span>
+              Ola, meu nome é<br />
+              <span class="nome-main">Victor Hugo</span><br />
+              eu sou <span class="typed"></span>
             </p>
-            <button class="botao-main"><a class="botao-main1" href="https://api.whatsapp.com/send?phone=551197715429&text=Olá%20Victor,%20gostaria%20de%20entrar%20em%20contato%20com%20você.%20">Contatar-me</a>
+            <button class="botao-main">
+              <a class="botao-main1"  onclick="window.open('https://wa.me/5511977154129', '_blank')">Contatar pelo WhatsApp</a>
             </button>
-         </div>
+          </div>
+          
 
          <img
             class="img-main1"
@@ -70,6 +75,39 @@
           </div>
             </div>
          </div>
+      </section>
+
+      <section class="servicos">
+         <div class="servicos-textos">
+           <h2 class="servicos-h2">Serviços</h2>
+           <p class="servicos-p">Que oferecemos</p> 
+         </div>
+         <div class="box-servico">
+            <div class="box-caixa">
+              <div>
+                <img class="pincel" src="Components/img/pincel.png">
+                <p class="box-caixa-F">Front-End</p>
+                <p class="box-caixa-t">Desenvolvedor de interface web e app!</p>
+              </div>
+            </div>
+            <div class="box-caixa">
+              <div>
+                <img class="pincel" src="Components/img/pincel.png">
+                <p class="box-caixa-F">Back-End</p>
+                <p class="box-caixa-t">Desenvolvedor de sistemas e banco de dados!</p>
+              </div>
+            </div>
+            <div class="box-caixa">
+              <div class="box3">
+                <img class="pincel" src="Components/img/pincel.png">
+                <p class="box-caixa-F">Full-Stack</p>
+                <p class="box-caixa-t">Desenvolvedor web e mobile completo!</p>
+              </div>
+            </div>
+          </div>
+          
+           
+           
       </section>
 
       <script src="Components/Main/TrocaNome.js"></script>
