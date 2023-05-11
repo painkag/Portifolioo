@@ -1,4 +1,6 @@
 @import url(/Components/VarCores.css);
+/*Por algum motivo quando subo o arquivo para o gitHub o var de cores não está funcionando   */
+
 
 main{
     background-color: #000;
@@ -33,7 +35,7 @@ main{
   
   .botao-main:hover {
     background-color:#000;
-    color: ##00804;
+    color: #00804;
   }
   
   .botao-main a {
