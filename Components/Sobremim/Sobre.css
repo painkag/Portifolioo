@@ -1,5 +1,7 @@
 .sobre-principal{
-    margin: 7em;
+    padding: 5em;
+    height: 700px;
+    width: 100%;
 }
 .sobre{
     font-size: 40px;

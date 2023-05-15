@@ -1,3 +1,12 @@
+@import url('Components/NavBar/NavBar.css');
+@import url('Components/Main/main.css');
+@import url('Components/Main/imgMain.css');
+@import url('Components/Sobremim/Sobre.css');
+@import url('Components/Servicos/servicos.css');
+@import url('Components/Especialidade/especialidade.css');
+@import url('Components/Rodape/rodape.css');
+@import url('Components/Contato/contato.css');
+
 * {
     margin: 0;
     padding: 0;

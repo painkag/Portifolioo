@@ -60,7 +60,7 @@
     transition: background-color 0.7s ease;
   }
   .box-caixa:hover{
-    background-color: var(--cor-verde);
+    background-color: #00804b;
     
 } 
   .pincel {

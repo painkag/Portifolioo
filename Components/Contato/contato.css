@@ -1,0 +1,31 @@
+.contato{
+    text-align: center;
+    background-color: #000;
+    text-align: center;
+    height: 10em;
+}
+.contato-titulo{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #FFF;
+    text-align: center;
+    width: 20em;
+    height: 5em;
+    margin-top: 2em;
+    border-radius: 20px;
+}
+.ultimo{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contatoF{
+    color: 00804b; 
+}
+.contatosTen{
+    text-decoration: none;
+    list-style-type: none;
+    color: blue;
+}
