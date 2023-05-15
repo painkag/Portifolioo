@@ -2,7 +2,7 @@
 <html>
    <head>
       <meta charset="UTF-8" />
-      <title>Exemplo de uso do Typed.js</title>
+      <title>Portfólio</title>
       <link
          rel="stylesheet"
          href="global.css"
@@ -23,31 +23,49 @@
          rel="stylesheet"
          href="Components/Sobremim/Sobre.css"
       />
-      <link rel="stylesheet" href="Components/Servicos/servicos.css">
+      <link
+         rel="stylesheet"
+         href="Components/Servicos/servicos.css"
+      />
+      <link
+         rel="stylesheet"
+         href="Components/Especialidade/especialidade.css"
+      />
+      <link
+         rel="stylesheet"
+         href="Components/Rodape/rodape.css"
+      />
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
    </head>
    <body>
-      <header class="header">
+      <header
+         class="header"
+         id="inicio"
+      >
          <p class="Port-P">Port<span class="Port-S">fólio</span></p>
          <div class="opcoes">
-            <li class="links-cabecalho"><a>Inicio</a></li>
-            <li class="links-cabecalho"><a>Sobre</a></li>
-            <li class="links-cabecalho"><a>Serviços</a></li>
-            <li class="links-cabecalho"><a>Especialidade</a></li>
+            <li class="links-cabecalho"><a href="#inicio">Inicio</a></li>
+            <li class="links-cabecalho"><a href="#sobre"> Sobre</a></li>
+            <li class="links-cabecalho"><a href="#servicos">Serviços</a></li>
+            <li class="links-cabecalho"><a href="#especialidade">Especialidade</a></li>
+            <li class="links-cabecalho"><a href="#especialidade">Projetos</a></li>
          </div>
       </header>
       <main>
          <div class="grupo-main">
             <p class="paragrafo-main">
-              Ola, meu nome é<br />
-              <span class="nome-main">Victor Hugo</span><br />
-              eu sou <span class="typed"></span>
+               Ola, meu nome é<br />
+               <span class="nome-main">Victor Hugo</span><br />
+               eu sou <span class="typed"></span>
             </p>
             <button class="botao-main">
-              <a class="botao-main1"  onclick="window.open('https://wa.me/5511977154129', '_blank')">Contatar pelo WhatsApp</a>
+               <a
+                  class="botao-main1"
+                  onclick="window.open('https://wa.me/5511977154129', '_blank')"
+                  >Contatar pelo WhatsApp</a
+               >
             </button>
-          </div>
-          
+         </div>
 
          <img
             class="img-main1"
@@ -55,61 +73,139 @@
          />
       </main>
 
-      <section class="sobre-principal">
+      <section
+         class="sobre-principal"
+         id="sobre"
+      >
          <div class="sobre-texto">
             <h2 class="sobre">Sobre</h2>
             <p class="sobre-p1">Quem sou eu</p>
          </div>
          <div class="texto-sobre">
             <div class="sobre-grupo">
-               <img class="img-sobre" src="Components/img/paris.jpg" />
-            <div class="separarPorLinha">
-            <p class="p-muda">Sou Victor e sou <span class="typed2"></span></p>
-            <p class="p-muda1">
-              Olá, meu nome é Victor Hugo e sou apaixonado por tecnologia! Comecei a me interessar por esse mundo aos 18 anos e desde então tenho me dedicado a estudar e me aprimorar nessa área. Atualmente, sou estudante de análise e desenvolvimento de sistemas, e busco constantemente novos desafios para aplicar meus conhecimentos. Se você procura um profissional comprometido e dedicado, será um prazer trabalhar com você!
-            </p>
-            <button class="baixar-cv">
-              <a class="botao-cv" href="Components/img/Resume..pdf" download>Download CV</a>
-           </button>
-           
-          </div>
+               <img
+                  class="img-sobre"
+                  src="Components/img/paris.jpg"
+               />
+               <div class="separarPorLinha">
+                  <p class="p-muda">Sou Victor e sou <span class="typed2"></span></p>
+                  <p class="p-muda1">
+                     Olá, meu nome é Victor Hugo e sou apaixonado por tecnologia! Comecei a me interessar por esse mundo
+                     aos 18 anos e desde então tenho me dedicado a estudar e me aprimorar nessa área. Atualmente, sou
+                     estudante de análise e desenvolvimento de sistemas, e busco constantemente novos desafios para
+                     aplicar meus conhecimentos. Se você procura um profissional comprometido e dedicado, será um prazer
+                     trabalhar com você!
+                  </p>
+                  <button class="baixar-cv">
+                     <a
+                        class="botao-cv"
+                        href="Components/img/Resume..pdf"
+                        download
+                        >Download CV</a
+                     >
+                  </button>
+               </div>
             </div>
          </div>
       </section>
 
-      <section class="servicos">
+      <section
+         class="servicos"
+         id="servicos"
+      >
          <div class="servicos-textos">
-           <h2 class="servicos-h2">Serviços</h2>
-           <p class="servicos-p">Que oferecemos</p> 
+            <h2 class="servicos-h2">Serviços</h2>
+            <p class="servicos-p">Que oferecemos</p>
          </div>
          <div class="box-servico">
             <div class="box-caixa">
-              <div>
-                <img class="pincel" src="Components/img/pincel.png">
-                <p class="box-caixa-F">Front-End</p>
-                <p class="box-caixa-t">Desenvolvedor de interface web e app!</p>
-              </div>
+               <div>
+                  <img
+                     class="pincel"
+                     src="Components/img/pincel.png"
+                  />
+                  <p class="box-caixa-F">Front-End</p>
+                  <p class="box-caixa-t">Desenvolvedor de interface web e app!</p>
+               </div>
             </div>
             <div class="box-caixa">
-              <div>
-                <img class="pincel" src="Components/img/pincel.png">
-                <p class="box-caixa-F">Back-End</p>
-                <p class="box-caixa-t">Desenvolvedor de sistemas e banco de dados!</p>
-              </div>
+               <div>
+                  <img
+                     class="pincel"
+                     src="Components/img/back-end.png"
+                  />
+                  <p class="box-caixa-F">Back-End</p>
+                  <p class="box-caixa-t">Desenvolvedor de sistemas e banco de dados!</p>
+               </div>
             </div>
             <div class="box-caixa">
-              <div class="box3">
-                <img class="pincel" src="Components/img/pincel.png">
-                <p class="box-caixa-F">Full-Stack</p>
-                <p class="box-caixa-t">Desenvolvedor web e mobile completo!</p>
-              </div>
+               <div class="box3">
+                  <img
+                     class="pincel"
+                     src="Components/img/programacao.png"
+                  />
+                  <p class="box-caixa-F">Full-Stack</p>
+                  <p class="box-caixa-t">Desenvolvedor web e mobile completo!</p>
+               </div>
             </div>
-          </div>
-          
-           
-           
+         </div>
       </section>
-
+      <section
+         class="especialidade"
+         id="especialidade"
+      >
+         <div class="espe-grupo-texto">
+            <h2 class="espe-h2">Especialidades</h2>
+            <p class="espe-p">Que faço</p>
+         </div>
+         <div class="segundo-grupo">
+            <div class="box-especialidades">
+               <p class="p-M">Minhas habilidades criativas e experiencias</p>
+               <p class="p-F">Formado pelo senai em criação de inteligência artificial, e Front-End pela alura.</p>
+            </div>
+            <div class="box-especialidades1">
+               <p>React</p>
+               <meter
+                  class="meter-personalizado"
+                  value="30"
+                  min="0"
+                  max="100"
+               >
+                  50%
+               </meter>
+               <p>Front-End</p>
+               <meter
+                  class="meter-personalizado"
+                  value="90"
+                  min="0"
+                  max="100"
+               >
+                  50%
+               </meter>
+               <p>Back-End</p>
+               <meter
+                  class="meter-personalizado"
+                  value="50"
+                  min="0"
+                  max="100"
+               >
+                  50%
+               </meter>
+               <p>Python</p>
+               <meter
+                  class="meter-personalizado"
+                  value="50"
+                  min="0"
+                  max="100"
+               >
+                  50%
+               </meter>
+            </div>
+         </div>
+      </section>
+      <footer class="rodape">
+         <p class="rodape-p">Feito por Victor Hugo</p>
+      </footer>
       <script src="Components/Main/TrocaNome.js"></script>
       <script src="Components/NavBar/Scroll.js"></script>
    </body>

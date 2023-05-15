@@ -1,0 +1,92 @@
+@import url(/Components/VarCores.css);
+
+.especialidade{
+    background-color: #FFF;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 5em;
+}
+.espe-grupo-texto{
+  width: 100%;
+  text-align: center;
+  margin-top: 4rem;
+}
+.espe-h2{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.segundo-grupo{
+    margin-top: 2rem;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+
+}
+.box-especialidades{
+    width: 45%;
+}
+
+.espe-p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color:var(--cor-verde) ;
+}
+.p-M{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+.p-F{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.meter-personalizado {
+    width:400px;
+    height: 20px;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .meter-personalizado::-webkit-meter-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .meter-personalizado::-webkit-meter-optimum-value {
+    background-color: #1abc9c;
+    border-radius: 5px;
+  }
+  
+  .meter-personalizado::-webkit-meter-suboptimum-value {
+    background-color: #f1c40f;
+    border-radius: 5px;
+  }
+  
+  .meter-personalizado::-webkit-meter-even-less-good-value {
+    background-color: #e74c3c;
+    border-radius: 5px;
+  }
+  
+  .meter-personalizado::-webkit-meter-text {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .meter-personalizado::-webkit-meter-bar::before {
+    content: attr(value)"%";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0 10px;
+    line-height: 20px;
+    font-size: 12px;
+  }

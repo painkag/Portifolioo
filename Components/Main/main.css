@@ -1,7 +1,10 @@
 @import url(/Components/VarCores.css);
+/*Por algum motivo o quando subo o arquivo para o gitHub o var de cores não está funcionando   */
+
+
 
 main{
-    background-color: #000;
+    background-color: var(--cor-preta);
     color: var(--cor-branca);
     display: flex;
     align-items: center;
@@ -10,7 +13,8 @@ main{
 .grupo-main{
     margin-left: 14em;
     padding-top: 5em;
-    margin-bottom: em;
+
+  
 }
 .paragrafo-main{
     font-size: 27px;
@@ -44,6 +48,4 @@ main{
   .botao-main a:hover {
     color: var(--cor-verde);
   }
-  .botao-main1{
-    height: ;
-  }
+  

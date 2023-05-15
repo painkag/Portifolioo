@@ -65,4 +65,8 @@
   .baixar-cv:hover .botao-cv {
     color: #00804b;
   }
+  .links-cabecalho a {
+    text-decoration: none;
+    color:#FFF
+  }
   
