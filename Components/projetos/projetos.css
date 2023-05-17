@@ -1,0 +1,43 @@
+.projetos{
+    display: block;
+    background-color: rgb(231, 226, 219);
+    height: 50em;
+    padding: 15px;
+}
+.inclob{
+    margin-left: 9%;
+}
+.projeto-titulo{
+    color: rgb(128 60 144);
+    font-family: sans-serif;
+}
+.p-pro{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.projetos-grupos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7em;
+    height: 380px;
+}
+
+.projeto-part {
+    width: 40%;
+    background-color: #FFF;
+    height: 70%;
+    box-shadow: 2px 2px 4px rgba(236, 219, 219, 0.5);
+    border-radius: 20px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+.projeto-part:hover{
+    transform: scale(1.1);
+}
+.img-pro {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}

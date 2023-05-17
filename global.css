@@ -6,6 +6,7 @@
 @import url('Components/Especialidade/especialidade.css');
 @import url('Components/Rodape/rodape.css');
 @import url('Components/Contato/contato.css');
+@import url('Components/projetos/projetos.css');
 
 * {
     margin: 0;
