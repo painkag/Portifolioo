@@ -79,4 +79,15 @@
     font-family: sans-serif;
     margin-top: 5px;
   }
-  
+  @media (max-width:450px) {
+    .servicos{
+      height: 900px;
+    }
+    
+    .box-servico{
+      display: block;
+    }
+    .box-caixa{
+      margin-bottom: 5%;
+    }
+  }

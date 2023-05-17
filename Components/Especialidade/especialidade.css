@@ -90,3 +90,15 @@
     line-height: 20px;
     font-size: 12px;
   }
+  @media (max-width: 450px) {
+    .box-especialidades {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      margin-left: 20%;
+      margin-bottom: 10%;
+    }
+    
+  }
+  
+

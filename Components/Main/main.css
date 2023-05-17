@@ -43,3 +43,24 @@ main{
   .botao-main a:hover {
     color: #00804b;
   }
+  @media (max-width:450px) {
+    main{
+      display: block; 
+      height: 40vh; 
+    }
+    .grupo-main{
+      margin-left: 2em;
+    }
+    .img-main1{
+      display: none;
+    }
+
+
+
+
+
+
+
+
+
+  }

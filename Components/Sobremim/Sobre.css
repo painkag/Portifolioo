@@ -71,4 +71,18 @@
     text-decoration: none;
     color:#FFF
   }
-  
+  @media (max-width:450px) {
+    .sobre-principal{
+        text-align: center;
+        height: 800px;
+    }
+    .img-sobre{
+    display: none;
+    }
+    .sobre-grupo{
+        display: block;
+    }
+    .p-muda{
+        margin-bottom: 30px;
+    }
+  }
